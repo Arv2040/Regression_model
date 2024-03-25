@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import copy as cp
 import math
 
-data = pd.read_csv("C:\\Users\\A J\\Desktop\\archive (1)\\Student_Performance.csv")
+data = pd.read_csv('./Student_Performance.csv')
 hours = float(input("Enter hours"))
 prev = float(input("Enter the amount of papers solved"))
 sleep = float(input("Enter the hours of sleep"))
