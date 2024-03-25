@@ -31,6 +31,8 @@ def cost(x,y,w,b):
     cost = cost/(2*m)
     return cost
 
+#to calculate the gradient term.
+
 def derivative(x,y,w,b):
     m,n = x_train.shape
     dj_dw = np.zeros((n,))
