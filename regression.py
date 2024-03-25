@@ -5,10 +5,10 @@ import copy as cp
 import math
 
 data = pd.read_csv('./Student_Performance.csv')
-hours = float(input("Enter hours"))
-prev = float(input("Enter the amount of papers solved"))
-sleep = float(input("Enter the hours of sleep"))
-sampleQ = float(input("Enter the number of sample questions"))
+hours = float(input("Enter hours studied "))
+prev = float(input("Enter Previous Year Score "))
+sleep = float(input("Enter the hours of sleep "))
+sampleQ = float(input("Enter the number of sample question papers solved "))
 
 x_train = np.array(data.iloc[:,0:-1:])
 y_train = np.array(data.iloc[:,4])
