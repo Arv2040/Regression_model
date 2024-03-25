@@ -62,7 +62,7 @@ def gradient_descent(w_in,b_in,x,y,derivative,alpha,num):
 initial_w = [0.,0.,0.,0.]
 initial_b = 0
 alpha = 0.00001
-num = 1500
+num = 9000
 
 w,b = gradient_descent(initial_w,initial_b,x_train,y_train,derivative,alpha,num)
 
